@@ -24,6 +24,7 @@ const submitTeetime = async (event) => {
   const handicap = document.querySelector('.handicap .select-wrapper input').value;
   const date = datepickerEl.value;
   const time = timepickerEl.value;
+  const username = req.session.username;
 
   if (course_name !== 'Select the course' && handicap !== 'Select handicap ' && date && time) {
 

@@ -30,7 +30,7 @@ UserTeeTime.init(
         // unique: false,
       },
     },
-    // user_name: {
+    // partner_name: {
     //   type: DataTypes.STRING,
     //   allowNull: false,
     // },
