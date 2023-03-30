@@ -1,4 +1,6 @@
 const router = require('express').Router();
+const withAuth = require('../utils/auth');
+const { TeeTime } = require('../../models');
 const withAuth = require('../../utils/auth');
 const { TeeTime, UserTeeTime } = require('../../models');
 
